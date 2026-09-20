@@ -1,7 +1,3 @@
-/* ==========================================================================
-   PARTH MAHAJAN - ULTRA-PROFESSIONAL SOFTWARE ENGINEER PORTFOLIO STYLESHEET
-   Theme: Executive Indigo & Steel Slate (Vercel / Linear Engineering Style)
-   ========================================================================== */
 
 /* ── Custom Design Tokens & Variables ── */
 :root {
@@ -408,6 +404,7 @@ section.section-in-view .section-desc {
 
 .hero-subtitle {
   font-size: 1.05rem;
+  font-weight: 500;
   color: var(--text-muted);
   margin-bottom: 22px;
   max-width: 620px;
@@ -419,6 +416,7 @@ section.section-in-view .section-desc {
 }
 
 section.section-in-view .hero-subtitle {
+  display: flex;
   transform: translateY(0);
   opacity: 1;
 }
@@ -762,11 +760,13 @@ section.section-in-view .contact-form-card {
   grid-template-columns: repeat(2, 1fr);
   gap: 12px;
   margin-top: 18px;
+  
 }
 
 .competency-item {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 10px;
   font-size: 0.88rem;
   font-weight: 600;
@@ -1258,7 +1258,8 @@ section.section-in-view .contact-form-card {
 .contact-wrapper {
   display: flex;
   justify-content: center;
-  max-width: 900px;
+  align-items: center;
+  max-width: 350px;
   margin: 0 auto;
   position: relative;
   z-index: 2;
@@ -1266,7 +1267,7 @@ section.section-in-view .contact-form-card {
 
 .contact-info-panel {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   gap: 18px;
   width: 100%;
   transform: translateY(30px);
